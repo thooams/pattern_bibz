@@ -1,8 +1,22 @@
 # PatternBibz
-Short description and motivation.
+Rails Ruby Pattern Generator.
+This gem allows to generate your design pattern through the ralis generator.
 
 ## Usage
-How to use my plugin.
+```bash
+rails generate pattern PATTERN_NAME
+```
+
+## Example
+```bash
+rails generate pattern MyCustomDecorator
+```
+
+This will create:
+    app/decorators/application_decorator.rb
+    app/decorators/my_custom_decorator.rb
+    test/decorators/application_decoratior_test.rb
+    test/decorators/my_custom_decorator_test.rb
 
 ## Installation
 Add this line to your application's Gemfile:
