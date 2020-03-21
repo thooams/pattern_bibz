@@ -9,9 +9,9 @@ class <%= class_name %> < <%= parent_class_name.classify %>
   # Attr_accessors
 
   # Associations
-<% attributes.select(&:reference?).each do |attribute|-%>
-  belongs_to :<%= attribute.name %><%= ', polymorphic: true' if attribute.polymorphic? -%>
-<% end %>
+<% attributes.select(&:reference?).each do |attribute| -%>
+  belongs_to :<%= attribute.name %><%= ', polymorphic: true' if attribute.polymorphic? %>
+<% end -%>
 <% attributes.select(&:rich_text?).each do |attribute| -%>
   has_rich_text :<%= attribute.name %>
 <% end -%>
