@@ -35,6 +35,17 @@ Or install it yourself as:
 $ gem install pattern_bibz
 ```
 
+## Utils
+To extend your Rails model generator:
+```bash
+rails g pattern_bibz:extend_model
+```
+
+Then you can generate your model:
+```bash
+rails g model MyModel title:string ...
+```
+
 ## Contributing
 Contribution directions go here.
 

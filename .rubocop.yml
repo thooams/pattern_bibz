@@ -1,5 +1,9 @@
 inherit_from: .rubocop_todo.yml
 
+AllCops:
+  Exclude:
+    - 'lib/generators/pattern_bibz/templates/model.rb'
+
 Style/HashEachMethods:
   Enabled: true
 
