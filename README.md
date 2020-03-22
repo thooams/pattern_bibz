@@ -22,7 +22,7 @@ This will create:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pattern_bibz'
+gem 'pattern_bibz', group: :development
 ```
 
 And then execute:
