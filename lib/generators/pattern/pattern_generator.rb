@@ -1,3 +1,5 @@
+require 'value_objects/pattern_value_object'
+
 # Generate template files and tests  with a patten name
 class PatternGenerator < Rails::Generators::NamedBase
   source_root File.expand_path('templates', __dir__)

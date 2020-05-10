@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pattern_bibz (1.2.0)
+    pattern_bibz (1.2.1)
       rails (~> 6.0.2, >= 6.0.2.2)
 
 GEM
