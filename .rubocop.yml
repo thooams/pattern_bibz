@@ -12,3 +12,6 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: true
+
+Layout/LineLength:
+  Enabled: false
