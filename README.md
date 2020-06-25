@@ -3,6 +3,8 @@
 Rails Ruby Pattern Generator.
 This gem allows to generate your design pattern through the ralis generator.
 
+![Ruby](https://github.com/thooams/pattern_bibz/workflows/Ruby/badge.svg)
+
 ## Usage
 
 ```bash
