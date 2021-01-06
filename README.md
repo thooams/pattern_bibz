@@ -1,4 +1,6 @@
-# PatternBibz
+![Pattern Bibz logo](https://raw.githubusercontent.com/thooams/pattern_bibz/main/pattern-bibz-logo.gif)
+
+# Pattern Bibz
 
 Rails Ruby Pattern Generator.
 This gem allows to generate your design pattern through the ralis generator.
