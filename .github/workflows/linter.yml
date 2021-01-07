@@ -11,6 +11,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Rubocop linter
-      uses: thooams/rubocop-action
+      uses: thooams/rubocop-action@latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
