@@ -1,10 +1,6 @@
-name: Ruby
+name: CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push]
 
 jobs:
   build:
@@ -13,15 +9,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup System
-      run: |
-        sudo apt-get install libsqlite3-dev
-    - name: Set up Ruby 2.7
-      uses: actions/setup-ruby@v1
+
+    - name: Set up Ruby with .ruby-version file
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.x
-    - name: Build and test with Rake
+        bundler-cache: true
+
+    - name: Install gems
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec rake
+
+    - name: Test with Rake
+      uses: paambaati/codeclimate-action@v2.7.5
+      env:
+        CC_TEST_REPORTER_ID: 4ede50495e464568418f343df292cc6af18111e7c44319c66938d6fbb2b6c837
+      with:
+        coverageCommand: bundle exec rake

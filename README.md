@@ -5,7 +5,13 @@
 Rails Ruby Pattern Generator.
 This gem allows to generate your design pattern through the rails generator.
 
-![Ruby](https://github.com/thooams/pattern_bibz/workflows/Ruby/badge.svg)
+[![Gem Version](https://badge.fury.io/rb/pattern_bibz.svg)](https://badge.fury.io/rb/pattern_bibz)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7e8e319e9f7197593733/maintainability)](https://codeclimate.com/github/thooams/pattern_bibz/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7e8e319e9f7197593733/test_coverage)](https://codeclimate.com/github/thooams/pattern_bibz/test_coverage)
+[![security](https://hakiri.io/github/thooams/pattern_bibz/main.svg)](https://hakiri.io/github/thooams/pattern_bibz/main)
+[![Ci](https://github.com/thooams/pattern_bibz/workflows/CI/badge.svg)](https://github.com/thooams/pattern_bibz/actions)
+[![Inline docs](http://inch-ci.org/github/thooams/pattern_bibz.svg?branch=master)](http://inch-ci.org/github/thooams/pattern_bibz)
+
 
 ## Usage
 
