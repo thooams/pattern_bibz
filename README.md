@@ -50,13 +50,13 @@ $ gem install pattern_bibz
 To extend your Rails model generator:
 
 ```bash
-rails g pattern_bibz:extend_model
+$ rails g pattern_bibz:extend_model
 ```
 
 Then you can generate your model:
 
 ```bash
-rails g model MyModel title:string ...
+$ rails g model MyModel title:string ...
 ```
 
 Your generated model will look like this:
@@ -84,10 +84,6 @@ class MyModel < ApplicationRecord
   # Methods
 end
 ```
-
-## Contributing
-
-Contribution directions go here.
 
 ## License
 
