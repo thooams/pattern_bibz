@@ -3,7 +3,7 @@
 # Pattern Bibz
 
 Rails Ruby Pattern Generator.
-This gem allows to generate your design pattern through the ralis generator.
+This gem allows to generate your design pattern through the rails generator.
 
 ![Ruby](https://github.com/thooams/pattern_bibz/workflows/Ruby/badge.svg)
 
@@ -19,7 +19,7 @@ rails generate pattern PATTERN_NAME
 rails generate pattern MyCustomDecorator
 ```
 
-Files will be created:
+Files generated:
 
     app/decorators/application_decorator.rb
     app/decorators/my_custom_decorator.rb
@@ -57,6 +57,32 @@ Then you can generate your model:
 
 ```bash
 rails g model MyModel title:string ...
+```
+
+Your generated model will look like this:
+
+```ruby
+# frozen_string_literal: true
+
+class MyModel < ApplicationRecord
+  # Scopes
+
+  # Constants
+
+  # Callbacks
+
+  # Attr_accessors
+
+  # Associations
+
+  # Enums
+
+  # Validations
+
+  # Delegations
+
+  # Methods
+end
 ```
 
 ## Contributing

@@ -1,4 +1,6 @@
 <% module_namespacing do -%>
+# frozen_string_literal: true
+
 class <%= class_name %> < <%= parent_class_name.classify %>
   # Scopes
 
