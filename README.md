@@ -10,6 +10,7 @@ This gem allows to generate your design pattern through the rails generator.
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7e8e319e9f7197593733/test_coverage)](https://codeclimate.com/github/thooams/pattern_bibz/test_coverage)
 [![security](https://hakiri.io/github/thooams/pattern_bibz/main.svg)](https://hakiri.io/github/thooams/pattern_bibz/main)
 [![Ci](https://github.com/thooams/pattern_bibz/workflows/CI/badge.svg)](https://github.com/thooams/pattern_bibz/actions)
+[![Linter](https://github.com/thooams/pattern_bibz/workflows/Linter/badge.svg)](https://github.com/thooams/pattern_bibz/actions)
 [![Inline docs](http://inch-ci.org/github/thooams/pattern_bibz.svg?branch=master)](http://inch-ci.org/github/thooams/pattern_bibz)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop-hq/rubocop)
 
